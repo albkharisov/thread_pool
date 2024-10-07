@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/albert/code/cpp/teknavo",
+  "command": "/usr/bin/c++   -Wall -pedantic -fsanitize=thread -o CMakeFiles/se_solver.dir/main.cpp.o -c /home/albert/code/cpp/teknavo/main.cpp",
+  "file": "/home/albert/code/cpp/teknavo/main.cpp",
+  "output": "CMakeFiles/se_solver.dir/main.cpp.o"
+},
+{
+  "directory": "/home/albert/code/cpp/teknavo",
+  "command": "/usr/bin/c++   -Wall -pedantic -fsanitize=thread -o CMakeFiles/se_solver.dir/worker_pool.cpp.o -c /home/albert/code/cpp/teknavo/worker_pool.cpp",
+  "file": "/home/albert/code/cpp/teknavo/worker_pool.cpp",
+  "output": "CMakeFiles/se_solver.dir/worker_pool.cpp.o"
+},
+{
+  "directory": "/home/albert/code/cpp/teknavo",
+  "command": "/usr/bin/c++   -Wall -pedantic -fsanitize=thread -o CMakeFiles/se_solver.dir/square_solver.cpp.o -c /home/albert/code/cpp/teknavo/square_solver.cpp",
+  "file": "/home/albert/code/cpp/teknavo/square_solver.cpp",
+  "output": "CMakeFiles/se_solver.dir/square_solver.cpp.o"
+}
+]
