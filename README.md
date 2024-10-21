@@ -6,7 +6,9 @@ Values are passed via standard input, results are printed via standard output.
 ## Usage
 
 > ./se_solver < test_data
+
 or
+
 > ./se_solver
 > -1 2 3
 > (-1 2 3) => (-1 3) Xmax=1
@@ -32,7 +34,7 @@ I decided to pass strings (instead of parsed ints) to workers threads because it
 to parallelize strings decoding too. But it may seem a little bit counter-intuitive, and
 more difficult to test. Though, it would be faster. For same reason I pass to printer thread
 strings too.
-
+ 
 I decided to get slight different solution of quadratic equation to protect
 from cases where b is much greater than a*c, and it leads to loss of precision.
 
@@ -41,6 +43,8 @@ from cases where b is much greater than a*c, and it leads to loss of precision.
 Tested on input files. Tested with sanitizers: address, undefined, thread.
 Sometimes TSan can produce false-positive errors at start. To fix this
 change kernel parameter:
+
 > sysctl vm.mmap_rnd_bits=30
+
 Somehow it can frustrate TSan when mmap-ed pages are too far allocated.
 
