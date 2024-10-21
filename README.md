@@ -3,16 +3,13 @@
 This program calculates square equation roots and extremum.
 Values are passed via standard input, results are printed via standard output.
 
+## Build
+
+> cmake . && cmake --build .
+
 ## Usage
 
 > ./se_solver < test_data
-
-or
-
-> ./se_solver
-> -1 2 3
-> (-1 2 3) => (-1 3) Xmax=1
-
 
 ## Thread interconnection
 ```mermaid
